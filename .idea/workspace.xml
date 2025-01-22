@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db9c8239-3f21-4abf-8ead-72425dbb7a7b" name="Changes" comment="" />
+    <list default="true" id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +16,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -29,20 +31,21 @@
   "customColor": "",
   "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="2rwbjnYn1BnXnjJUZznmI7YaIWm" />
+  <component name="ProjectId" id="2rz1tOGS5t45ekxNbTQhm2MVJAa" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ASUS/OneDrive/Desktop/Personal-project/Whatsapp_Clone/whatsappclone/pom.xml"
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -55,11 +58,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db9c8239-3f21-4abf-8ead-72425dbb7a7b" name="Changes" comment="" />
-      <created>1737473223856</created>
+      <changelist id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="" />
+      <created>1737547306129</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737473223856</updated>
+      <updated>1737547306129</updated>
     </task>
     <servers />
   </component>
