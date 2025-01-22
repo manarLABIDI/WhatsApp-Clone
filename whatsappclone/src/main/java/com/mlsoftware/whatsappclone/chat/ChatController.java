@@ -19,7 +19,7 @@ public class ChatController {
     @PostMapping
     public ResponseEntity<StringResponse>  createChat(
             @RequestParam("sender-id") String senderId,
-            @RequestParam("receiver-id") String receiverId,
+            @RequestParam("receiver-id") String receiverId
     ){
         final String chatId = chatService.createChat(senderId, receiverId);
 
