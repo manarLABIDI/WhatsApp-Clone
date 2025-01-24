@@ -52,7 +52,7 @@ public class MessageController {
         messageService.setMessagesToSeen(chatId, authentication);
     }
 
-    @GetMapping("/chat/{chat-id")
+    @GetMapping("/chat/{chat-id}")
     public ResponseEntity<List<MessageResponse>> getMessages(
             @PathVariable("chat-id") String chatId
     ){

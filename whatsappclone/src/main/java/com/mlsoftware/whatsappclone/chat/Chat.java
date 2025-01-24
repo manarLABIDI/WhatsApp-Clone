@@ -23,7 +23,6 @@ import static jakarta.persistence.GenerationType.UUID;
 @NoArgsConstructor
 @Entity
 @Table(name="chat")
-
 @NamedQuery(name= ChatConstants.FIND_CHAT_BY_SENDER_ID,
         query = "SELECT DISTINCT c FROM Chat c WHERE c.sender.id = :senderId OR c.recipient.id = : senderId ORDER BY createdDate DESC")
 
@@ -46,13 +45,18 @@ public class Chat  extends BaseAuditingEntity {
     private List<Message> messages;
 
     @Transient
-    public String getChatName(final String senderId){
-
-        if(recipient.getId().equals(senderId)){
-            return sender.getFirstName() + " "+ sender.getLastName();
+    public String getChatName(String senderId) {
+        if (recipient.getId().equals(senderId)) {
+            return sender.getFirstName() + " " + sender.getLastName();
         }
-        return recipient.getFirstName() + " "+ recipient.getLastName();
-
+        return recipient.getFirstName() + " " + recipient.getLastName();
+    }
+    @Transient
+    public String getTargetChatName(String senderId) {
+        if (sender.getId().equals(senderId)) {
+            return sender.getFirstName() + " " + sender.getLastName();
+        }
+        return recipient.getFirstName() + " " + recipient.getLastName();
     }
 
     @Transient

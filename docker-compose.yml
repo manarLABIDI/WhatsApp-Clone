@@ -26,12 +26,12 @@ services:
       - whatsapp-clone
     command:
       - "start-dev"
-
-
 networks:
   whatsapp-clone:
     driver: bridge
 
 volumes:
   postgres:
+    driver: local
+  keycloak:
     driver: local

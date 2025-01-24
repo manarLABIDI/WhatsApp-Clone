@@ -28,6 +28,7 @@ public class UserSychronizerFilter extends OncePerRequestFilter {
             userSychronize.synchronizeWithIdp(token.getToken()); //sychronzing user between my identity provider and my database
 
         }
+        filterChain.doFilter(request, response);
 
 
     }
