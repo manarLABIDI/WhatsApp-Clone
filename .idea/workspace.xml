@@ -7,12 +7,6 @@
     <list default="true" id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/whatsappclone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/ChatRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/ChatRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/ChatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/ChatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/file/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/file/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
