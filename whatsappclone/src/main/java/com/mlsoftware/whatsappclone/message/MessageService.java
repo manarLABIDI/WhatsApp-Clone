@@ -3,6 +3,10 @@ package com.mlsoftware.whatsappclone.message;
 import com.mlsoftware.whatsappclone.chat.Chat;
 import com.mlsoftware.whatsappclone.chat.ChatRepository;
 import com.mlsoftware.whatsappclone.file.FileService;
+import com.mlsoftware.whatsappclone.file.FileUtils;
+import com.mlsoftware.whatsappclone.notification.Notification;
+import com.mlsoftware.whatsappclone.notification.NotificationService;
+import com.mlsoftware.whatsappclone.notification.NotificationType;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.Authentication;
@@ -20,12 +24,13 @@ public class MessageService {
     private final ChatRepository chatRepository;
     private final MessageMapper mapper;
     private final FileService fileService;
+    private final NotificationService notificationService;
 
     public void saveMessage(MessageRequest messageRequest){
-         Chat c  = chatRepository.findById(messageRequest.getChatId())
+         Chat chat  = chatRepository.findById(messageRequest.getChatId())
                  .orElseThrow(() -> new EntityNotFoundException("Chat not found"));
          Message m = new Message();
-         m.setChat(c);
+         m.setChat(chat);
          m.setContent(messageRequest.getContent());
          m.setSenderId(messageRequest.getSenderId());
          m.setReceiverId(messageRequest.getReceiverId());
@@ -34,7 +39,18 @@ public class MessageService {
 
          messageRepository.save(m);
 
-        //todo notification
+        Notification notification = Notification.builder()
+                .chatId(chat.getId())
+                .messageType(messageRequest.getType())
+                .content(messageRequest.getContent())
+                .senderId(messageRequest.getSenderId())
+                .receiverId(messageRequest.getReceiverId())
+                .type(NotificationType.MESSAGE)
+                .chatName(chat.getChatName(m.getSenderId()))
+                .build();
+
+        notificationService.sendNotification(m.getReceiverId(), notification);
+
     }
 
     public List<MessageResponse> findChatMessages(String chatId) {
@@ -49,10 +65,18 @@ public class MessageService {
     public void setMessagesToSeen(String chatId, Authentication authentication){
         Chat chat = chatRepository.findById(chatId)
                 .orElseThrow(() -> new EntityNotFoundException("chat not found"));
-        //final String recipientId = getRecipientId(chat, authentication);
+        final String recipientId = getRecipientId(chat, authentication);
 
         messageRepository.setMessagesToSeenByChatId(chatId, MessageState.SEEN);
-        // todo notification
+
+        Notification notification = Notification.builder()
+                .chatId(chat.getId())
+                .type(NotificationType.SEEN)
+                .senderId(getSenderId(chat, authentication))
+                .receiverId(recipientId)
+                .build();
+
+        notificationService.sendNotification(recipientId, notification);
     }
 
     public void uploadMediaMessage(String chatId, MultipartFile file, Authentication authentication){
@@ -70,6 +94,17 @@ public class MessageService {
         message.setMediaFilePath(filePath);
         message.setChat(chat);
         messageRepository.save(message);
+
+        Notification notification = Notification.builder()
+                .chatId(chat.getId())
+                .type(NotificationType.IMAGE)
+                .messageType(MessageType.IMAGE)
+                .senderId(senderId)
+                .receiverId(receiverId)
+                .media(FileUtils.readFileFromLocation(filePath))
+                .build();
+
+        notificationService.sendNotification(receiverId, notification);
 
 
     }
