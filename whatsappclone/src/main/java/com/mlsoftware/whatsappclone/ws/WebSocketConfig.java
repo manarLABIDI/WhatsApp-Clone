@@ -40,7 +40,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
                 .withSockJS();
     }
     @Override
-    public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {
+    public void addArgumentResolvers(List<HandlerMethodArgumentResolver> argumentResolvers) {      //Allows injecting the authenticated user into WebSocket controller methods.
         argumentResolvers.add(new AuthenticationPrincipalArgumentResolver());
     }
 

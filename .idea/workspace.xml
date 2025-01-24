@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/ws/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/ws/WebSocketConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
