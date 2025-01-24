@@ -56,6 +56,7 @@ public class FileService {
         } catch (IOException e){
             log.error("File was not saved", e);
         }
+        return null;
     }
 
     private String getFileExtension(String filename) {

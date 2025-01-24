@@ -31,8 +31,8 @@ public class User extends BaseAuditingEntity {
 
     @Id
     private String id;
-    private String firstname;
-    private String lastname;
+    private String firstName;
+    private String lastName;
     private String email;
     private LocalDateTime lastSeen;
 

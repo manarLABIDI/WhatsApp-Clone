@@ -22,7 +22,7 @@ public class ChatService {
     @Transactional(readOnly = true)
     public List<ChatResponse> getChatByReceiverId(Authentication currentUser){
      final String userId = currentUser.getName();
-     return chatRepository.findChatBySebderId(userId)
+     return chatRepository.findChatBySenderId(userId)
              .stream()
              .map(c -> chatMapper.toChatResponse(c, userId))
              .toList();
