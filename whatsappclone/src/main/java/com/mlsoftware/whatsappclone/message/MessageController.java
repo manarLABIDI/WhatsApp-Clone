@@ -24,6 +24,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/v1/messages")
 @RequiredArgsConstructor
+@Tag(name = "Message")
 public class MessageController {
 
     private final MessageService messageService;
@@ -38,7 +39,7 @@ public class MessageController {
     @ResponseStatus(HttpStatus.CREATED)
     public void uploadMedia(
             @RequestParam("chat-id") String chatId,
-           // todo  @Parameter()
+             @Parameter()
             @RequestPart("file") MultipartFile file,
             Authentication authentication
     ) {
