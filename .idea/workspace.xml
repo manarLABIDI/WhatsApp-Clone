@@ -5,56 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af75e9b5-8571-4fb5-a7c6-9b56448ea761" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/extensions.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/tasks.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.config.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/api-configuration.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/api.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/base-service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/chat/create-chat.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/chat/get-chats-by-receiver.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/get-messages.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/save-message.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/set-message-to-seen.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/upload-media.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/user/get-all-users.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/chat-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/message-request.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/message-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/string-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/user-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/request-builder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/chat.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/message.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/user.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/strict-http-response.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/utils/keycloak/keycloak.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/utils/keycloak/keycloak.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/openapi/openapi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/styles.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/whatsapp-clone-ui/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
