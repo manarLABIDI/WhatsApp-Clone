@@ -1,53 +1,52 @@
 import { Injectable } from '@angular/core';
-import keycloak from 'keycloak-js';
+import Keycloak from 'keycloak-js';
+import {Router} from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
 })
 export class KeycloakService {
 
-  private _keycloak: keycloak | undefined;
+  private _keycloak : Keycloak | undefined;
 
   constructor() { }
-
-  get keycloak(){
-    if(!this._keycloak){
-      this._keycloak= new keycloak({
-        url:'http://localhost:9090',
+  get keycloak() {
+    if (!this._keycloak) {
+      this._keycloak = new Keycloak({
+        url: 'http://localhost:9090',
         realm: 'whatsapp-clone',
         clientId: 'whatsapp-clone-app'
       });
     }
     return this._keycloak;
-
   }
 
-  async init(){
+  async init() {
     const authenticated = await this.keycloak.init({
-      onLoad: 'login-required'
+      onLoad: 'login-required',
     });
-
   }
 
-  async login(){
+  async login() {
     await this.keycloak.login();
   }
 
-  get userId() : string{
-    return this.keycloak.tokenParsed?.sub as string;
+  get userId(): string {
+    return this.keycloak?.tokenParsed?.sub as string;
   }
 
-  get isTokenValid(){
+  get isTokenValid(): boolean {
     return !this.keycloak.isTokenExpired();
   }
 
-  get fullName() : string {
-   return this.keycloak.tokenParsed?.['name'] as string;
+  get fullName(): string {
+    return this.keycloak.tokenParsed?.['name'] as string;
   }
 
   logout() {
     return this.keycloak.logout({redirectUri: 'http://localhost:4200'});
   }
+
   accountManagement() {
     return this.keycloak.accountManagement();
   }

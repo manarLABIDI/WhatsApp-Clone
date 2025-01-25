@@ -4,32 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/chat/Chat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/interceptor/UserSychronizerFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/interceptor/UserSychronizerFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/message/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/message/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/message/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/message/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/user/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/ws/WebSocketConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/java/com/mlsoftware/whatsappclone/ws/WebSocketConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whatsappclone/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/whatsappclone/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="af75e9b5-8571-4fb5-a7c6-9b56448ea761" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/api-configuration.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/api.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/base-service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/chat/create-chat.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/chat/get-chats-by-receiver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/get-messages.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/save-message.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/set-message-to-seen.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/message/upload-media.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/fn/user/get-all-users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/chat-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/message-request.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/message-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/string-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/models/user-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/request-builder.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/chat.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/message.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/services/user.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/services/strict-http-response.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/utils/keycloak/keycloak.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/app/utils/keycloak/keycloak.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/openapi/openapi.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/src/styles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/whatsapp-clone-ui/tsconfig.spec.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,28 +67,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 5
-}</component>
-  <component name="ProjectId" id="2rz1tOGS5t45ekxNbTQhm2MVJAa" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2s7O2L6rs5zjQj3zzgmGY2MLL0F" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.WhatsAppCloneApiApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.WhatsAppCloneApiApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -69,11 +95,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77605e8c-c8c6-4ec2-8239-9c6f28344d4a" name="Changes" comment="" />
-      <created>1737547306129</created>
+      <changelist id="af75e9b5-8571-4fb5-a7c6-9b56448ea761" name="Changes" comment="" />
+      <created>1737802942642</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737547306129</updated>
+      <updated>1737802942642</updated>
     </task>
     <servers />
   </component>
