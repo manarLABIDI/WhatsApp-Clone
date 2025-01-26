@@ -196,6 +196,7 @@ export class MainComponent implements OnInit, OnDestroy, AfterViewChecked {
         () => {
           this.notificationSubscription = this.socketClient.subscribe(subUrl,
             (message: any) => {
+              console.log('WebSocket message received:', message);
               const notification: Notification = JSON.parse(message.body);
               this.handleNotification(notification);
 

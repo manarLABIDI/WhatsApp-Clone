@@ -17,7 +17,7 @@ public class NotificationService {
 
         log.info("sending ws notification to user {} with payload {}", userId, notification);
         messagingTemplate.convertAndSendToUser(userId,
-                "/chat/", notification);
+                "/chat", notification);
 
     }
 }
