@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/whatsapp_clone
-    username:
-    password: 
+    username: postgres
+    password: root123
   jpa:
     hibernate:
       ddl-auto: create
